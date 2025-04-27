@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(244,208,78);
+    height: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: center; /* centers horizontally */
+      align-items: center;
+      
+      margin: 0;
+      height: 100vh;
+      background: repeating-linear-gradient(
+        to right,
+        #f4cc4e,           /* light yellow */
+        #f4cc4e 50px,      /* width of first stripe */
+        #edc344 50px,
+        #edc344 100px      /* width of second stripe */
+      );
+}
+.frame{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    width: 384px;
+    height:522px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 8px 8px 0px rgb(0,0,0);
+
+    
+}
+.imagegiven{
+    width:336px;
+    height: 200px;
+
+    border-radius: 10px;
+    
+}
+.content1{
+    background-color: rgb(244,208,78);
+    border-radius: 4px;
+    width: 82px;
+    height: 29px;
+    margin-left: 24px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+
+    
+
+}
+
+.p{
+    font-family: 'figtree ' ;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin: 0;
+    text-align: center;
+}
+.image-wrapper{
+    padding:24px;
+    width:336px;
+    height: 200px;
+}
+.p1{
+    font-family: 'figtree ' ;
+    margin-left: 24px;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-bottom: -2px;
+
+}
+.p2{
+    font-family: 'figtree ' ;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-left: 24px;
+    margin-bottom: -2px;
+
+
+}
+.p3{
+    font-family: 'figtree' ;
+   color: rgb(107,107,107);
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-left: 24px;
+}
+.last{
+    display:flex;
+    flex-direction: row;
+    width:140px;
+    height:32px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+
+
+}
+.image-wrapper1{
+    width:32px;
+    height:32px;
+    margin-left: 24px;
+   
+}
+.image2{
+    border-radius: 50px;
+    width:100%;
+    height: auto;
+}
+.p4{
+    text-align: center;
+    font-family: 'figtree' ;
+    font-weight:700;
+     font-size: 14px;
+     line-height: 150%;
+     letter-spacing: 0px;
+}
